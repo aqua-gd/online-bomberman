@@ -1,0 +1,94 @@
+html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: block;
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            background: -webkit-linear-gradient(top, #4cf, #8fa);
+        }
+
+        h1 {
+            display: block;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+            font-size: 3rem;
+        }
+
+        .skin-list-container {
+            display: block !important;
+            background: #fff;
+            border-radius: 20px;
+            width: 80vw !important;
+            height: 50vh;
+            margin: 20vh auto;
+        }
+
+        .btn {
+            background-color: #4cf;
+            border: 3px solid #000;
+            border-radius: 10px;
+            height: 3rem;
+            width: 8rem;
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+            position: absolute;
+            left: calc(50% - 4rem);
+            top: 60vh
+        }
+        .btn:hover {
+            background-color: #2af;
+        }
+
+        .skin-list {
+            display: flex;
+            justify-content: space-around;
+            padding-left: 0;
+        }
+
+        .skin-list li {
+            list-style: none;
+        }
+
+        .skin-list li label input {
+            display: none;
+        }
+
+        .skin-list li label input[type=radio]:checked+div {
+            background-color: #aaa !important;
+            border-radius: 25%;
+            opacity: 0.8;
+        }
+
+        .skin-list li label div {
+            width: 128px;
+            height: 128px;
+            margin: 2rem 0;
+            transition: all 150ms;
+            background-position: 0 -256px !important;
+        }
+
+        .skin-list li label div:hover {
+            background-color: #aaa !important;
+            border-radius: 10%;
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        h2 {
+            font-size: 1.5rem;
+            text-align: left;
+            margin-left: 4rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+            display: inline-block;
+        }
+        #btn_joystick {
+            width: 30px;
+            height: 30px;
+        }

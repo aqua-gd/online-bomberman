@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomberman</title>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/shortcut-icon.png">
+</head>
+
+<body>
+    <div id="container">
+        <div id="bomber" class="bomber"></div>
+        <div class="buttons" id="groupBtns">
+            <div id="btn-up"></div>
+            <div id="btn-left"></div>
+            <div id="btn-down"></div>
+            <div id="btn-right"></div>
+            <div id="btn-bomb"></div>
+        </div>
+    </div>
+    
+    <!-- SCRIPTS -->
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="./scripts/config.js"></script>
+    <script src="./scripts/functions.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomberman</title>
+    <link rel="shortcut icon" href="../images/shortcut-icon.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="skin-list-container">
+            <div>
+                <h1>Choose your skin:</h1>
+            </div>
+            <ul class="skin-list">
+                <li>
+                    <label for="bomber_white">
+                        <input type="radio" name="skinBomber" id="bomber_white" checked>
+                        <div class="skin" style="background: url(../images/bomber-white.webp)"></div>
+                    </label>
+                </li>
+                <li>
+                    <label for="bomber_blue">
+                        <input type="radio" name="skinBomber" id="bomber_blue">
+                        <div class="skin" style="background: url(../images/bomber-blue.webp)"></div>
+                    </label>
+                </li>
+                <li>
+                    <label for="bomber_yellow">
+                        <input type="radio" name="skinBomber" id="bomber_yellow">
+                        <div class="skin" style="background: url(../images/bomber-yellow.webp)"></div>
+                    </label>
+                </li>
+                <li>
+                    <label for="bomber_red">
+                        <input type="radio" name="skinBomber" id="bomber_red">
+                        <div class="skin" style="background: url(../images/bomber-red.webp)"></div>
+                    </label>
+                </li>
+                <li>
+                    <label for="bomber_green">
+                        <input type="radio" name="skinBomber" id="bomber_green">
+                        <div class="skin" style="background: url(../images/bomber-green.webp)"></div>
+                    </label>
+                </li>
+                <li>
+                    <label for="bomber_rock">
+                        <input type="radio" name="skinBomber" id="bomber_rock">
+                        <div class="skin" style="background: url(../images/bomber-rock.webp)"></div>
+                    </label>
+                </li>
+            </ul>
+            <div>
+                <label for="btn_joystick">
+                    <h2>Joystick</h2>
+                    <input type="checkbox" id="btn_joystick">
+                </label>
+            </div>
+            <button id="btn_play" class="btn">Play</button>
+        </div>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
